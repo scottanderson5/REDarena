@@ -402,20 +402,21 @@ p{
 }
 
 .color-description{
-	width: 22em;
+	width: 90%;
 	float: left;
 	margin-top: 1em;
 	font-weight: 200;
 
 	@media (min-width: 650px){
-		width: 16em;
+		//width: 16em;
+		width: 55%;
 		float: right;
 		margin-right: 0em;
 		margin-top: 0;
 	}
 
 	@media (min-width: 900px){
-		width: 25em;
+		//width: 25em;
 		float: left;
 		margin-left: 1em;
 	}
@@ -526,7 +527,7 @@ p{
 	padding: 0.5em;
 }
  footer{
- 	height: 2em;
+ 	height: 4em;
  	background-color: $PrimaryColor;
  }
 
